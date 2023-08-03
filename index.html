@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We-ather </title>
+
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzRwMP1aatPTa9VlWUGbxfhEbjizlmvAB7BQ&usqp=CAU"
+        type="image/x-icon">
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Weather App </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<body>
+
+    <h1>We-ather</h1>
+    <div class="container">
+        <div class="weather-input">
+            <h3>Enter a City Name</h3>
+           
+            <input class="city-input" type="text"  placeholder="Abbeville" >
+          
+        <select id="serch" class="city-inpu" >
+
+          <option value="Abbeville"></option>
+                <option value="Abbeville">Abbeville</option>
+                <option value="Ablis">Ablis</option>
+                <option value="Ablon-sur-Seine">Ablon-sur-Seine</option>
+                <option value="Abrest">Abrest</option>
+                <option value="Abscon">Abscon</option>
+                <option value="Achenheim">Achenheim</option>
+                <option value="Acheres">Acheres</option>
+                <option value="Achicourt">Achicourt</option>
+                <option value="Achicourt">Acigne</option>
+                <option value="Achicourt">Afa</option>
+                <option value="Achicourt">Agde</option>
+                <option value="Achicourt">Agen</option>
+                <option value="Achicourt">Agneaux</option> 
+                <option value="Bohars">Bohars</option>
+                <option value="Blere">Blere</option>
+                <option value="Blois">Blois</option>
+                <option value="Blotzheim">Blotzheim</option>
+                <option value="Bobigny">Bobigny</option>
+                <option value="Boe">Boe</option>
+                <option value="Boen-sur-Lignon">Boen-sur-Lignon</option>
+                <option value="Boe">Bages</option>
+                <option value="Boe">Bagneres-de-Bigorre</option>
+                <option value="Boe">Bagneux</option>
+                <option value="Boe">Bagnolet</option>
+                <option value="Boe">Bailly</option>
+                <option value="Chalette-sur-Loing">Chalette-sur-Loing</option>
+                <option value="Chalindrey">Chalindrey</option>
+                <option value="Chamonix-Mont-Blanc">Chamonix-Mont-Blanc</option>
+                <option value="Coex">Coex</option>
+                <option value="Cognac">Cognac</option>
+                <option value="Combronde">Combronde</option>
+                <option value="Cornas">Cornas</option>
+                <option value="Coublevie">Coublevie</option>
+                <option value="Coulaines">Caen</option>
+                <option value="Coulaines">Cagnac-les-Mines</option>
+                <option value="Coulaines">Cagnes-sur-Me</option>
+                <option value="Coulaines">Calais</option>
+                <option value="Coulaines">Caissargues</option>
+                <option value="Dabo">Dabo</option>
+                <option value="Dadonville">Dadonville</option>
+                <option value="Dammartin-en-Goele">Dammartin-en-Goele</option>
+                <option value="Dagneux">Dagneux</option>
+                <option value="Dechy">Dechy</option>
+                <option value="Dieuze">Dieuze</option>
+                <option value="Equihen-Plage">Equihen-Plage</option>
+                <option value="Erbray">Erbray</option>
+                <option value="Espalion">Espalion</option>
+                <option value="Espaly-Saint-Marcel">Espaly-Saint-Marcel</option>
+                <option value="Fourqueux">Fourqueux</option>
+                <option value="Fronton">Fronton</option>
+                <option value="Gaillac">Gaillac</option>
+                <option value="Gassin">Gassin</option>
+                <option value="Garancieres">Garancieres</option>
+                <option value="Gigean">Gigean</option>
+                <option value="Givry">Givry</option>
+                <option value="Hersin-Coupigny">Hersin-Coupigny</option>
+                <option value="Hoenheim">Hoenheim</option>
+                <option value="Houdan">Houdan</option>
+                <option value="Huriel">Huriel</option>
+                <option value="Janze">Janze</option>
+                <option value="Janville-sur-Juine">Janville-sur-Juine</option>
+                <option value="Jouy-sur-Morin">Jouy-sur-Morin</option>
+                <option value="La Gorgue">La Gorgue</option>
+                <option value="La Teste-de-Buch">La Teste-de-Buch</option>
+                <option value="La Reole">La Reole</option>
+                <option value="Lanester">Lanester</option>
+                <option value="Langonnet">Langonnet</option>
+                <option value="Le Luc">Le Luc</option>
+                <option value="Locoal-Mendon">Locoal-Mendon</option>
+                <option value="Menucourt">Menucourt</option>
+                <option value="Merville">Merville</option>
+                <option value="Mimizan">Mimizan</option>
+                <option value="Neuvic">Neuvic</option>
+                <option value="Neuville-aux-Bois">Neuville-aux-Bois</option>
+                <option value="Onnaing">Onnaing</option>
+                <option value="Onzain">Onzain</option>
+                <option value="Ouzouer-sur-Loire">Ouzouer-sur-Loire</option>
+                <option value="Pavilly">Pavilly</option>
+                <option value="Peaule">Peaule</option>
+                <option value="Peymeinade">Peymeinade</option>
+                <option value="Pinsaguel">Pinsaguel</option>
+                <option value="Plougasnou">Plougasnou</option>
+                <option value="Portvendres">Portvendres</option>
+                <option value="Quessoy">Quessoy</option>
+                <option value="Renaison">Renaison</option>
+                <option value="Rieux">Rieux</option>
+                <option value="Rivery">Rivery</option>
+                <option value="Valencay">Valencay</option>
+                <option value="Vaujours">Vaujours</option>
+                <option value="Verlinghem">Verlinghem</option>
+                <option value="Villecresnes">Villecresnes</option>
+                <option value="Vitre">Vitre</option>
+                <option value="Yerville">Yerville</option>
+                <option value="Yvrac">Yvrac</option>
+                <option value="Yerville">Yerville</option>
+                <option value="Woustviller">Woustviller</option>
+                <option value="Wittenheim">Wittenheim</option>
+                <option value="Wizernes">Wizernes</option>
+                <option value="Zillisheim">Zillisheim</option>
+                
+
+
+            </select>
+            <br>
+            <br>
+            <button class="search-btn">Search</button>
+            <div class="separator"></div>
+            <button class="location-btn">Use Current Location</button>
+        </div>
+
+
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>Abbeville ( 2023-06-29 )</h2>
+                    <h6>Temperature: 19°C</h6>
+                    <h6>Wind: 4.31 M/S</h6>
+                    <h6>Humidity: 75%</h6>
+                </div>
+                <div class="icon">
+                    <img src="./weather_icons/10d.png" alt="">
+                    <h4>Moderate rain</h4>
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2 class="citytext"> Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>( 2023-06-29 )</h3>
+                        <img src="./weather_icons/02n.png" alt="">
+                        <h6>Temp: 20°C</h6>
+                        <h6>Wind: 4.31 M/S</h6>
+                        <h6>Humidity: 75%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>( 2023-06-29 )</h3>
+                        <img src="./weather_icons/03d.png" alt="">
+                        <h6>Temp: 20°C</h6>
+                        <h6>Wind: 4.31 M/S</h6>
+                        <h6>Humidity: 75%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>( 2023-06-29 )</h3>
+                        <img src="./weather_icons/04n.png" alt="">
+                        <h6>Temp: 20°C</h6>
+                        <h6>Wind: 4.31 M/S</h6>
+                        <h6>Humidity: 75%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>( 2023-06-29 )</h3>
+                        <img src="./weather_icons/04n.png" alt="">
+                        <h6>Temp: 20°C</h6>
+                        <h6>Wind: 4.31 M/S</h6>
+                        <h6>Humidity: 75%</h6>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
